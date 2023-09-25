@@ -39,6 +39,11 @@ HERO
     background-color: var(--green);
 }
 
+.container-small{
+    max-width: 240px;
+    margin: 0 auto;
+}
+
 
 /* 
 FOOTER 
@@ -47,3 +52,27 @@ FOOTER
 .footer-info{
     background-color: #3A546D;
 }
+
+.footer-copyright{
+    background-color: #2C3E50;
+}
+
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .container-small{
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .container-small{
+        max-width: 990px;
+    }
+}
+
+@media (min-width: 1400px) {}
