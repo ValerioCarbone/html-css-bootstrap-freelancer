@@ -1,8 +1,16 @@
 /* 
+PALETTE 
+*/
+:root {
+    --green: #1ABC9C;
+}
+
+
+/* 
 HEADER 
 */
 
-header{
+.header-navbar{
     background-color: #2C3E50;
 }
 
@@ -15,7 +23,7 @@ HERO
 */
 
 .hero{
-    background-color: #1ABC9C;
+    background-color: var(--green);
 }
 
 .hero-img{
@@ -25,4 +33,17 @@ HERO
 .portfolio img{
     width: 100%;
     border-radius: 10px;
+}
+
+.about{
+    background-color: var(--green);
+}
+
+
+/* 
+FOOTER 
+*/
+
+.footer-info{
+    background-color: #3A546D;
 }
