@@ -32,10 +32,23 @@ HERO
     max-width: 228px;
 }
 
-/* .portfolio img{
-    width: 100%;
-    border-radius: 10px;
-} */
+.divider::before{
+    content: '';
+    height: 4px;
+    background-color: currentColor;
+    width: 60px;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+.divider::after{
+    content: '';
+    height: 4px;
+    background-color: currentColor;
+    width: 60px;
+    display: inline-block;
+    border-radius: 40px;
+}
 
 
 /* 
