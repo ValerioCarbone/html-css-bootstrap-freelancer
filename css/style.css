@@ -14,10 +14,6 @@ HEADER
     background-color: #2C3E50;
 }
 
-header .row{
-    flex-wrap: nowrap;
-}
-
 /* 
 HERO
 */
@@ -30,10 +26,10 @@ HERO
     max-width: 228px;
 }
 
-.portfolio img{
+/* .portfolio img{
     width: 100%;
     border-radius: 10px;
-}
+} */
 
 .about{
     background-color: var(--green);
