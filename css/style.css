@@ -104,22 +104,21 @@ FOOTER
     background-color: #2C3E50;
 }
 
-
-
-@media (min-width: 576px) {}
-
-@media (min-width: 768px) {
-    .container-small{
-        max-width: 700px;
-    }
+.ms-button-white{
+    aspect-ratio: 1;
+    height: 40px;
+    border-radius: 999px;
+    border: 1px solid white;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 4px;
 }
 
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {
-    .container-small{
-        max-width: 990px;
-    }
+.highlight_green{
+    color: #1ABC9C;
 }
 
-@media (min-width: 1400px) {}
+.footer-copyright p{
+    font-size: 10px;
+}
